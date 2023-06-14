@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddebf8; 
+  color: #2b2839;
+  padding: 20px;
+  border-bottom: 2px solid #87CEEB;
+}
+
+.my_photo{  
+  width: 200px;
+  height: auto;
+  border: 2px solid #87CEEB;
+}
+
+.description {
+    text-align: left;
+    margin: 0;
+}
