@@ -1,25 +1,87 @@
 body{
   margin: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.top_top_part {
+  display: flex;
+  justify-content: size-between; 
 }
 
 .top_part {
   display: flex;
-  justify-content: space-between;
+  justify-content: size-between;
   align-items: center;
-  background-color: #ddebf8; 
+  background-color: #ffffff;
+  margin: 15px;
   color: #2b2839;
-  padding: 20px;
-  border-bottom: 2px solid #87CEEB;
+  height: 340px; 
 }
 
 .my_photo{  
-  width: 200px;
-  height: auto;
-  border: 2px solid #87CEEB;
+  height: 100%;
+  width: auto;
+  border: none;
+  margin-right: 0;
+  
 }
 
 .description {
-    text-align: left;
-    margin: 0;
+  color: #2b2839;
+  height: auto;
+  width: auto;
+  text-align: left;
+  padding: 15px;
+  
+}
+
+.titles {
+  color: #6A5ACD;
+  text-decoration: underline;
+}
+
+.social_media {
+  background-color: #F5F5F5;
+  border: 2px solid #6A5ACD;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.social_media a {
+  color: #2b2839;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px; 
+}
+
+.social_media:hover {
+  background-color: #6A5ACD;
+}
+
+.social_media:active{
+  opacity: 0.7;
+}
+
+.about_me {
+  background-color: #ffffff;
+  color: #2b2839;
+  padding: 20px;
+  height: 300px;
+  padding: 20px;
+  margin: 15px;
+  width: 50%; 
+}
+
+.middle_part {
+  background-color: #ffffff;
+  color: #2b2839;
+  padding: 20px;
+  min-height: 300px;
+  height:100%;
+  width: 100%;
+  padding: 20px;
+  margin: 15px;
 }
