@@ -1,12 +1,10 @@
 body{
-  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f1f1f1;
 }
 
 .top_top_part {
-  display: flex;
- 
+  display: flex;  
 }
 
 .top_part {
@@ -17,28 +15,21 @@ body{
   color: #2b2839;
   height: 340px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-
 }
 
 .my_photo{  
   height: 100%;
   width: auto;
   border: none;
-  margin-right: 0;
-  
 }
 
 .description {
   color: #2b2839;
-  height: auto;
-  width: auto;
   text-align: left;
   padding: 15px;
-  
 }
 
 .titles {
-  display: flex;
   color: #6A5ACD;
   text-decoration: underline;
 }
@@ -50,13 +41,11 @@ body{
   border-radius: 10px;
   width: 80px;
   height: 30px;
- 
 }
 
 .social_media a{
   color: #2b2839;
   text-decoration: none;
-
 }
 
 .social_media:hover {
@@ -79,8 +68,7 @@ body{
   height: 300px;
   margin: 15px;
   width: 100%;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-  
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
 }
 
 .skill_cont {
@@ -98,16 +86,14 @@ body{
 .skill_table{
   margin-right: auto;
   margin-left: auto;
-  
 }
 
 .skills {
   display:inline-block;
   margin: 3px;
   border: 2px solid #6A5ACD;
-  padding: 7px;
-  border-radius: 10px;
-  
+  padding: 3px;
+  border-radius: 10px; 
 }
 
 .second_part {
@@ -116,12 +102,10 @@ body{
   padding: 20px;
   min-height: 300px;
   height:100%;
-  padding: 20px;
   margin-bottom: 15px;
   margin-right: 15px;
   margin-left: 15px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-  
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
 }
 
 .dates {
@@ -133,8 +117,6 @@ body{
   height:20px;
   width: auto;
   margin-right: 5px;
-
- 
 }
 
 .third_part {
@@ -142,15 +124,15 @@ body{
   color: #2b2839;
   padding: 20px;
   min-height: 300px;
-  height:100%;
+  height: auto;
   width: 33%;
   padding: 20px;
   margin-bottom: 15px;
   margin-right: 15px;
   margin-left: 15px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-  
 }
+
 .int_part {
   display: flex;
 }
@@ -163,3 +145,25 @@ body{
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
 }
 
+.progress_border {
+  height: 24px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.progress_100 {
+  height: 24px;
+  width: 100%;
+  background-color: #6A5ACD;
+  border-radius: 16px;
+  color: white;
+}
+
+.list_interest {
+  padding: 5px;
+  font-weight: bold;
+}
