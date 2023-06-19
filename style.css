@@ -1,4 +1,5 @@
 body{
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f1f1f1;
 }
@@ -113,7 +114,7 @@ body{
   
 }
   
-.ikon {
+.icon {
   height:20px;
   width: auto;
   margin-right: 5px;
@@ -137,14 +138,6 @@ body{
   display: flex;
 }
 
-.final_background {
-  height: 150px;
-  box-sizing: border-box; 
-  width: calc(100% - 30px);
-  margin: 0 15px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
-}
-
 .progress_border {
   height: 24px;
   width: 100%;
@@ -160,10 +153,51 @@ body{
   width: 100%;
   background-color: #6A5ACD;
   border-radius: 16px;
-  color: white;
+}
+
+.progress_90 {
+  height: 24px;
+  width: 90%;
+  background-color: #6A5ACD;
+  border-radius: 16px;
 }
 
 .list_interest {
   padding: 5px;
   font-weight: bold;
+}
+
+.final_background {
+  position: absolute;
+  height: 150px;
+  box-sizing: border-box; 
+  width: calc(100% - 30px);
+  margin: 0 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+  z-index: 1;
+}
+
+.end_part {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+
+.media_button {
+  position: absolute;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+
+.media_icons {
+  position: absolute;
+  height: 20px;
+  width: auto;
+  z-index: 2;
 }
